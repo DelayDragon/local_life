@@ -1,2 +1,16 @@
 <!--pages/message/message.wxml-->
 <text>pages/message/message.wxml</text>
+
+
+
+<!-- wxs演示 -->
+<!-- <view>
+  {{m1.toUpper(username)}}
+  {{m2.toLower('YEL')}}
+</view>
+<wxs module="m1">
+  module.exports.toUpper = function(str){
+    return str.toUpperCase()
+  }
+</wxs>
+<wxs src="../../utils/tools.wxs" module="m2"/> -->
